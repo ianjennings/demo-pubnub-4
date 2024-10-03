@@ -1,0 +1,78 @@
+version: 4.0.56
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Navigate to a form page.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Navigate to a form page.
+    commands:
+      - command: hover-text
+        text: Start Building
+        description: button to navigate to the form page
+        action: click
+  - prompt: Click the submit button without filling in the required fields.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Submit
+        description: submit button on the form page
+        action: click
+  - prompt: Click the submit button without filling in the required fields.
+    commands:
+      - command: hover-text
+        text: Register
+        description: submit button on the form
+        action: click
+  - prompt: Click the submit button without filling in the required fields.
+    commands:
+      - command: hover-text
+        text: Register
+        description: submit button on the form
+        action: click
+  - prompt: Click the submit button without filling in the required fields.
+    commands:
+      - command: hover-text
+        text: Register
+        description: submit button on the form
+        action: click
+  - prompt: Click the submit button without filling in the required fields.
+    commands:
+      - command: hover-text
+        text: Register
+        description: submit button on the form
+        action: click
+  - prompt: Click the submit button without filling in the required fields.
+    commands:
+      - command: hover-text
+        text: Register
+        description: submit button on the form
+        action: click
+  - prompt: Click the submit button without filling in the required fields.
+    commands:
+      - command: hover-text
+        text: Register
+        description: submit button on the form
+        action: click
+  - prompt: Click the submit button without filling in the required fields.
+    commands:
+      - command: hover-text
+        text: Register
+        description: submit button on the form
+        action: click
+  - prompt: Click the submit button without filling in the required fields.
+    commands:
+      - command: hover-text
+        text: Register
+        description: submit button on the form
+        action: click
+  - prompt: Click the submit button without filling in the required fields.
+    commands:
+      - command: hover-text
+        text: Register
+        description: submit button on the form
+        action: click
