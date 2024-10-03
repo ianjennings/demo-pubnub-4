@@ -1,0 +1,98 @@
+version: 4.0.56
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Locate the image carousel on the homepage.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Locate the image carousel on the homepage.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Locate the image carousel on the homepage.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Click the next button on the carousel.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Next
+        description: next button on the carousel
+        action: click
+  - prompt: Click the next button on the carousel.
+    commands:
+      - command: scroll
+        direction: down
+      - command: hover-text
+        text: Next
+        description: next button on the carousel
+        action: click
+  - prompt: Click the next button on the carousel.
+    commands:
+      - command: scroll
+        direction: down
+      - command: hover-text
+        text: Next
+        description: next button on the carousel
+        action: click
+  - prompt: Click the next button on the carousel.
+    commands:
+      - command: scroll
+        direction: down
+      - command: hover-text
+        text: Next
+        description: next button on the carousel
+        action: click
+  - prompt: Click the next button on the carousel.
+    commands:
+      - command: scroll
+        direction: down
+      - command: hover-text
+        text: Next
+        description: next button on the carousel
+        action: click
+  - prompt: Click the next button on the carousel.
+    commands:
+      - command: scroll
+        direction: up
+      - command: hover-text
+        text: Next
+        description: next button on the carousel
+        action: click
+  - prompt: Click the next button on the carousel.
+    commands:
+      - command: scroll
+        direction: down
+      - command: hover-text
+        text: Next
+        description: next button on the carousel
+        action: click
+  - prompt: Click the next button on the carousel.
+    commands:
+      - command: scroll
+        direction: up
+      - command: hover-text
+        text: Next
+        description: next button on the carousel
+        action: click
+  - prompt: Click the next button on the carousel.
+    commands:
+      - command: scroll
+        direction: down
+      - command: hover-text
+        text: Next
+        description: next button on the carousel
+        action: click
+  - prompt: Click the next button on the carousel.
+    commands:
+      - command: scroll
+        direction: up
+      - command: hover-text
+        text: Next
+        description: next button on the carousel
+        action: click
