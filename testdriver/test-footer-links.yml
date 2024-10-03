@@ -1,0 +1,174 @@
+version: 4.0.56
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Scroll to the footer of the webpage.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Scroll to the footer of the webpage.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer of the webpage.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Click each footer link one by one.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Footer Link 1
+        direction: down
+      - command: hover-text
+        text: Footer Link 1
+        description: first footer link
+        action: click
+      - command: scroll-until-text
+        text: Footer Link 2
+        direction: down
+      - command: hover-text
+        text: Footer Link 2
+        description: second footer link
+        action: click
+      - command: scroll-until-text
+        text: Footer Link 3
+        direction: down
+      - command: hover-text
+        text: Footer Link 3
+        description: third footer link
+        action: click
+  - prompt: Click each footer link one by one.
+    commands:
+      - command: scroll-until-text
+        text: Privacy Policy
+        direction: down
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+      - command: scroll-until-text
+        text: Terms of Service
+        direction: down
+      - command: hover-text
+        text: Terms of Service
+        description: footer link
+        action: click
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+      - command: hover-text
+        text: Contact Us
+        description: footer link
+        action: click
+  - prompt: Click each footer link one by one.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: footer link
+        action: click
+  - prompt: Click each footer link one by one.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: footer link
+        action: click
+  - prompt: Click each footer link one by one.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: footer link
+        action: click
+  - prompt: Click each footer link one by one.
+    commands:
+      - command: hover-text
+        text: Terms of Service
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: footer link
+        action: click
+  - prompt: Click each footer link one by one.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: footer link
+        action: click
+  - prompt: Click each footer link one by one.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: footer link
+        action: click
+  - prompt: Click each footer link one by one.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: footer link
+        action: click
+  - prompt: Click each footer link one by one.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: footer link
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: footer link
+        action: click
