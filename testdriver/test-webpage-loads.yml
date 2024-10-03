@@ -1,0 +1,33 @@
+version: 4.0.56
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Navigate to the website URL.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Assert that the webpage loads correctly.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search
+        action: click
+      - command: type
+        text: https://example.com
+      - command: press-keys
+        keys:
+          - enter
+      - command: wait
+        timeout: 5000
+      - command: assert
+        expect: the webpage loads correctly
+  - prompt: Assert that the logo is visible on the page.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: assert
+        expect: the logo is visible on the page
